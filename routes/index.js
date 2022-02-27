@@ -6,7 +6,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0
 router.get('/parse_json_special', async (req, res) => {
 	const fs = require("fs")
 	fs.readdir("./json", (err, files) => {
-		files.forEach((file, i) => {
+		files.sort((a,b) => parseInt(a.split(".")[0]) > parseInt(b.split(".")[0]) ? 1 : -1).forEach((file, i) => {
 			let index = i + 1
 			fs.readFile("./json/" + file, 'utf8', (err, content) =>{
 				let fileContent = JSON.parse(content),
