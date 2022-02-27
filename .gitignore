@@ -1,8 +1,8 @@
 .DS_Store
 node_modules/
-json/*
+json/*.json
+json_final/*.json
 *.json
-json_final/*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
