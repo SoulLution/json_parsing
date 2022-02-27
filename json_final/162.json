@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #162",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/162.png",
+  "dna": "53c48eafc0703e55c1ac6011e61cfb94071caaef",
+  "edition": 162,
+  "date": 1645215036106,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Color Space"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Pilot"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin Gold"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

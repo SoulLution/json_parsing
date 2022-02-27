@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #134",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/134.png",
+  "dna": "39962150b2b8fc0992ed69b109c9858d7fc66b00",
+  "edition": 134,
+  "date": 1645214875669,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Polygon Coins"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "B Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #5",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/5.png",
+  "dna": "eb24b5b0c11c5a41f646074e2ddb3a4f31056249",
+  "edition": 5,
+  "date": 1645215185059,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "England"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Earring"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

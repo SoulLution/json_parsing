@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #101",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/101.png",
+  "dna": "24e204ab7a5c2d97a2bcb4e64011a502f10692a6",
+  "edition": 101,
+  "date": 1645214678182,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "BSML1"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Afrojazz"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dumbfounded"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

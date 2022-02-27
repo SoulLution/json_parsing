@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #81",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/81.png",
+  "dna": "0e206aa8824d7d394130095159b234a1c1a291b6",
+  "edition": 81,
+  "date": 1645214994770,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Robot"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Yellowfam"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme Oh"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

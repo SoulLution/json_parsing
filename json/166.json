@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #179",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/179.png",
+  "dna": "b5cba242cc416e9eda9a6b05dc728f235fbf3326",
+  "edition": 179,
+  "date": 1645215620467,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow Tribe"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "PunkComic"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "W Haircut"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin Diamond"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

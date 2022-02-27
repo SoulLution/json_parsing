@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #172",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/172.png",
+  "dna": "61a9a37782b0756874067f5f3334e8fd2009743b",
+  "edition": 172,
+  "date": 1645215576794,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Pilot"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Tin Foil Hat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

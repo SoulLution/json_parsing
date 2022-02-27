@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #170",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/170.png",
+  "dna": "f58ff03d0733dc7ed035b233f1bb8214dcf161dd",
+  "edition": 170,
+  "date": 1645215102616,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Closed"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black BAYC"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Fireman"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

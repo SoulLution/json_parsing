@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #76",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/76.png",
+  "dna": "c09c8623c184cee811112f48af3f87edf5457879",
+  "edition": 76,
+  "date": 1645214963085,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Cape"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Winter Hat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

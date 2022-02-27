@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #175",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/175.png",
+  "dna": "82299f02ae2193744d1e8cf05b8afa407053a6b3",
+  "edition": 175,
+  "date": 1645215128283,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Chili"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black BAYC"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rage"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

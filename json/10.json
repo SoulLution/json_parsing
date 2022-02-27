@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #15",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/15.png",
+  "dna": "f04898379261c58a7497aacf33eca45bb8e38012",
+  "edition": 15,
+  "date": 1645214575619,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Robot"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wide"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Alcatraz85"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "M Haircut"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

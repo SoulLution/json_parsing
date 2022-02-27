@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #121",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/121.png",
+  "dna": "052d6ce492ebe18aa07f6dcbfbf7d9af1158a39c",
+  "edition": 121,
+  "date": 1645215253901,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Elvis"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Dreds Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rage"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

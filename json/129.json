@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #137",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/137.png",
+  "dna": "8696ef6cdf392e9b9b72154aff3a52aabc59473a",
+  "edition": 137,
+  "date": 1645215354213,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow Tribe"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Elvis"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #55",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/55.png",
+  "dna": "8f74d3350638de149d2b8705c994e29f77b47ef8",
+  "edition": 55,
+  "date": 1645215500170,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Chili"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Alcatraz85"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Fireman"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme Vuh"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #80",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/80.png",
+  "dna": "4d75a49a700bc096b3b0bace6c62291074fe011d",
+  "edition": 80,
+  "date": 1645215645390,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Polygon Coins"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Tie"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Student"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Jovial"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

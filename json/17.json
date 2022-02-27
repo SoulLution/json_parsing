@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #22",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/22.png",
+  "dna": "763f28d17ec9973975c479322cb730ee35fb1f6c",
+  "edition": 22,
+  "date": 1645214620492,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Madness"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Hip Hop"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Sherlock"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

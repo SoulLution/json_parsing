@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #165",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/165.png",
+  "dna": "cac67f9490c626f5fa66511661c74414d28ba232",
+  "edition": 165,
+  "date": 1645215531903,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Tie"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Napoleon"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

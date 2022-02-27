@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #59",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/59.png",
+  "dna": "1d4c3637b8de648d5e5720b98161b5c30081aeb2",
+  "edition": 59,
+  "date": 1645214856799,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Tie"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "FC BAYC Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

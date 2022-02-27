@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #47",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/47.png",
+  "dna": "7b8defd59510d851db0d259ff124ffc2e206cccd",
+  "edition": 47,
+  "date": 1645215442573,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green Eyes"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "XRParmy"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Yellowfam"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

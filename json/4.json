@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #7",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/7.png",
+  "dna": "ac4df813e0efc28abc83c98a5c381911bb74f0fc",
+  "edition": 7,
+  "date": 1645214522152,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Eyes"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Tie"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gold Hair"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #95",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/95.png",
+  "dna": "15bb7a18474f0b4ba66f6f3760ea122e80effa71",
+  "edition": 95,
+  "date": 1645214639284,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green Eyes"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "England"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "MAYC"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Jovial"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

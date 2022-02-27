@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #105",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/105.png",
+  "dna": "7334a5de6beaf683a6ca80acfc05f5037798ed6c",
+  "edition": 105,
+  "date": 1645215153588,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored Moscot"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Elvis"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme Wah"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

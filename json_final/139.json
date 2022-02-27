@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #139",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/139.png",
+  "dna": "77979d5b894a38a844a9c3737614e17b052a9941",
+  "edition": 139,
+  "date": 1645214900573,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Color Space"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloodshot left"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Harvard"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gold Hair"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

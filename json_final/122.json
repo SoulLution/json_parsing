@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #122",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/122.png",
+  "dna": "32230c5a200928975c1dbb959942a804ca5ff3de",
+  "edition": 122,
+  "date": 1645214805748,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Post Suit"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Jovial"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

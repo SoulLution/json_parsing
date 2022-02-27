@@ -1,0 +1,11 @@
+{
+	"jwtSecret" : "asdf",
+	"db" : {
+		"host": "localhost",
+		"port": 3306,
+		"user": "root",
+		"password": "",
+		"database": "sula_parser",
+		"charset": "utf8mb4"
+	}
+}

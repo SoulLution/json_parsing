@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #145",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/145.png",
+  "dna": "3d4976dd09883b366ac8b73934c8087465b5c93b",
+  "edition": 145,
+  "date": 1645214938085,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Lazy Zombie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Eyes"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "England"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "FC BAYC Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Pink Lips"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

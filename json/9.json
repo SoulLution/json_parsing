@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #13",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/13.png",
+  "dna": "a2113fa254d8ed948d3a21956ba6065ebb60af36",
+  "edition": 13,
+  "date": 1645214562798,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Madness"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Elvis"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "MBAYC Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dumbfounded"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

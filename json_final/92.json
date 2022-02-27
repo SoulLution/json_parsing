@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #92",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/92.png",
+  "dna": "3302b12883494339a2ff5a6bdd1f4b9aa011d764",
+  "edition": 92,
+  "date": 1645215746403,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloodshot"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Snow Bored"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Serena"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

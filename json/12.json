@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #17",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/17.png",
+  "dna": "d3ab6689b231d51f39b328a4e97daa49f102ca67",
+  "edition": 17,
+  "date": 1645214588379,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Captain"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "FC BAYC Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Black Lips"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

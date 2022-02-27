@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #53",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/53.png",
+  "dna": "c21a3c8a9bd4261050b54a618ebae2dc93030385",
+  "edition": 53,
+  "date": 1645214818821,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow Tribe"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blindfold"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Sycho"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gold Hair"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

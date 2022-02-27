@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #161",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/161.png",
+  "dna": "547689e5186aa24fcd546f17dadfc30df422db99",
+  "edition": 161,
+  "date": 1645215028045,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Polygon Coins"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Pilot"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Afrojazz"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme L"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

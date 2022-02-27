@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #169",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/169.png",
+  "dna": "03d4935b52706835651afa75bd8e21669fb10faf",
+  "edition": 169,
+  "date": 1645215096320,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow Tribe"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Winter Sport"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Napoleon"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

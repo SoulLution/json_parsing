@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #175",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/175.png",
+  "dna": "4ddb540dd9ef05584bb13ec9b98f5d15271a6d41",
+  "edition": 175,
+  "date": 1645215595561,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lazer Red"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Captain"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "W Haircut"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme Oh"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

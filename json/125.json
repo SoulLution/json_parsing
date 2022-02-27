@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #133",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/133.png",
+  "dna": "8c5f9d4ffeffa581ccfc3ccbf515a4de5fe7d108",
+  "edition": 133,
+  "date": 1645215329239,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Armymen"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Polygon Coins"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Alcatraz85"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "MAYC"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Small Grin"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

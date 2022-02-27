@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #96",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/96.png",
+  "dna": "4a0e4077d71e1501b318473399c683b36bbed06d",
+  "edition": 96,
+  "date": 1645214645470,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored Left"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Black Suit T"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Earring"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "W Helmet"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme Oh"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

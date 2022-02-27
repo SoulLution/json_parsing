@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #166",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/166.png",
+  "dna": "a709d07bcb9be9f745baf71386fc90a5429012ab",
+  "edition": 166,
+  "date": 1645215077533,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Chili"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Simple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blindfold"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Adidas Green"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Frank"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #48",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/48.png",
+  "dna": "389518ce15528aa567f8c5837637f34614b6b78f",
+  "edition": 48,
+  "date": 1645214787057,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Frank"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloodshot left"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Gold Hair"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

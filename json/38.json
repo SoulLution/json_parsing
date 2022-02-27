@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #44",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/44.png",
+  "dna": "7cb3aac105c52f3e0bd8c4681340eb5ad6fa2376",
+  "edition": 44,
+  "date": 1645214761571,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bored"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Doc"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin Gold"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

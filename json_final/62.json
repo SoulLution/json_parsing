@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #62",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/62.png",
+  "dna": "54cdd3932ca4824b1e581d67dfec1fa7472aba99",
+  "edition": 62,
+  "date": 1645215538481,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lazer Red"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Alcatraz85"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Orange Hat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin Diamond"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

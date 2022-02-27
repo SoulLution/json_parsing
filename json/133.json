@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #142",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/142.png",
+  "dna": "38ca49f25a3194df979f93a0be20cee598f7752b",
+  "edition": 142,
+  "date": 1645215385706,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polygonlive"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Color Space"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Madness"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "PIMP"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "B Cap"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Pipe"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

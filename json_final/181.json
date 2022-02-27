@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #181",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/181.png",
+  "dna": "f03e0abc2480a622c8a2c114f62c0b878fd2242e",
+  "edition": 181,
+  "date": 1645215166026,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "IC1101"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "X"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Cape"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Horns"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dumbfounded"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

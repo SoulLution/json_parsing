@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #124",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/124.png",
+  "dna": "04bbdebc297bdd19f9286f64c91ef42e421f7901",
+  "edition": 124,
+  "date": 1645215272730,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Lazy Zombie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Madness"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Fireman"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Chaplin"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bored Unshaven"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}

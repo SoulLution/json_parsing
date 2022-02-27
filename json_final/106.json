@@ -1,0 +1,39 @@
+{
+  "name": "TEST1402 #106",
+  "description": "Welcome To 1402. The first unique collection",
+  "image": "ipfs://QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq/106.png",
+  "dna": "42ceaf1e75e6cae314b46e0a44e3da5fd1b2945f",
+  "edition": 106,
+  "date": 1645214704644,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Eyes"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Alcatraz85"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Elvis"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Phoneme ooo"
+    }
+  ],
+  "compiler": "Bored Art Engine"
+}
