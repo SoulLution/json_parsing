@@ -5,6 +5,14 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0
 
 router.get('/parse_json_special', async (req, res) => {
 	const fs = require("fs")
+	const BLACKLIST = [
+		"test",
+		"some",
+	]
+	const WHEREIS = [
+		"name",
+		"image",
+	]
 	fs.readdir("./json", (err, files) => {
 		files.sort((a,b) => parseInt(a.split(".")[0]) > parseInt(b.split(".")[0]) ? 1 : -1).forEach((file, i) => {
 			let index = i + 1
@@ -15,6 +23,15 @@ router.get('/parse_json_special', async (req, res) => {
 				fileContent.name = names[0] + "#" + index
 				fileContent.image = images[0] + "//" + images[2] + "/" + index + ".png"
 				fileContent.edition = index
+
+				WHEREIS.forEach(key => {
+					BLACKLIST.forEach(word => {
+						fileContent[key].replace(word, "")
+					})
+				})
+
+				fileContent.name = names[0] + "#" + index
+
 				fs.writeFile("./json_final/" + index + ".json", JSON.stringify(fileContent, null, 2), err => {
 					if (err) throw err
 					console.log(index)
