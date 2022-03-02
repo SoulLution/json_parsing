@@ -26,7 +26,12 @@ router.get('/parse_json_special', async (req, res) => {
 
 				WHEREIS.forEach(key => {
 					BLACKLIST.forEach(word => {
-						fileContent[key].replace(word, "")
+						if(fileContent[key])
+							fileContent[key].replace(word, "")
+							if(fileContent.attributes[0][key])
+								fileContent.attributes.forEach(x => {
+									x[key].replace(word, "")
+								})
 					})
 				})
 
