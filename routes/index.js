@@ -5,6 +5,8 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0
 
 router.get('/parse_json_special', async (req, res) => {
 	const fs = require("fs")
+	var Filequeue = require('filequeue');
+	var fq = new Filequeue(200);
 	const BLACKLIST = [
 		"test",
 		"some",
@@ -13,34 +15,43 @@ router.get('/parse_json_special', async (req, res) => {
 		"name",
 		"image",
 	]
-	fs.readdir("./json", (err, files) => {
+	fq.readdir("./json", (err, files) => {
 		files.sort((a,b) => parseInt(a.split(".")[0]) > parseInt(b.split(".")[0]) ? 1 : -1).forEach((file, i) => {
 			let index = i + 1
-			fs.readFile("./json/" + file, 'utf8', (err, content) =>{
-				let fileContent = JSON.parse(content),
-						names = fileContent.name.split("#"),
-						images = fileContent.image.split("/")
-				fileContent.name = names[0] + "#" + index
-				fileContent.image = images[0] + "//" + images[2] + "/" + index + ".png"
-				fileContent.edition = index
+			fq.readFile("./json/" + file, 'utf-8', (err, content) =>{
+				// console.log(file)
+				if (err)
+					return console.log(err);
+				try {
+					let fileContent = JSON.parse(content),
+							names = fileContent.name.split("#"),
+							images = fileContent.image.split("/")
+					fileContent.name = names[0] + "#" + index
+					fileContent.image = images[0] + "//" + images[2] + "/" + index + ".png"
+					fileContent.edition = index
 
-				WHEREIS.forEach(key => {
-					BLACKLIST.forEach(word => {
-						if(fileContent[key])
-							fileContent[key].replace(word, "")
-							if(fileContent.attributes[0][key])
-								fileContent.attributes.forEach(x => {
-									x[key].replace(word, "")
-								})
+					WHEREIS.forEach(key => {
+						BLACKLIST.forEach(word => {
+							if(fileContent[key])
+								fileContent[key].replace(word, "")
+								if(fileContent.attributes[0][key])
+									fileContent.attributes.forEach(x => {
+										x[key].replace(word, "")
+									})
+						})
 					})
-				})
 
-				fileContent.name = names[0] + "#" + index
+					fileContent.name = names[0] + "#" + index
 
-				fs.writeFile("./json_final/" + index + ".json", JSON.stringify(fileContent, null, 2), err => {
-					if (err) throw err
-					console.log(index)
-				})
+					fq.writeFile("./json_final/" + index + ".json", JSON.stringify(fileContent, null, 2), err => {
+						if (err) throw err
+						// console.log("final", index)
+					})
+					// console.log("start", index)
+				}
+				catch (e) {
+					console.error("error", content, file, e)
+				} 
 			})
 		})
 	})
