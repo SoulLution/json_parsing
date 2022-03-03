@@ -8,53 +8,53 @@ router.get('/parse_json_special', async (req, res) => {
 	var Filequeue = require('filequeue');
 	var fq = new Filequeue(200);
 	const BLACKLIST = [
-		"test",
-		"some",
+		["QmQgtGsfr6T9uxXa9Lz6XXVzYdKjRFeGzjkmodPjFGcfpq", "test"],
+		// ["some", "new"],
 	]
-	const WHEREIS = [
-		"name",
-		"image",
-	]
-	fq.readdir("./json", (err, files) => {
-		files.sort((a,b) => parseInt(a.split(".")[0]) > parseInt(b.split(".")[0]) ? 1 : -1).forEach((file, i) => {
-			let index = i + 1
-			fq.readFile("./json/" + file, 'utf-8', (err, content) =>{
-				// console.log(file)
-				if (err)
-					return console.log(err);
-				try {
-					let fileContent = JSON.parse(content),
-							names = fileContent.name.split("#"),
-							images = fileContent.image.split("/")
-					fileContent.name = names[0] + "#" + index
-					fileContent.image = images[0] + "//" + images[2] + "/" + index + ".png"
-					fileContent.edition = index
+	
+	let files = await fs.readdirSync("./json")
+	files = files.sort((a,b) => parseInt(a.split(".")[0]) > parseInt(b.split(".")[0]) ? 1 : -1)
+	let i = 0,
+			final = []
+	for(let file of files) {
+		let index = i + 1
+		i++
+		try {
+		let fileContent = JSON.parse(await fs.readFileSync("./json/" + file, 'utf-8')),
+				names = fileContent.name.split("#"),
+				images = fileContent.image.split("/")
 
-					WHEREIS.forEach(key => {
-						BLACKLIST.forEach(word => {
-							if(fileContent[key])
-								fileContent[key].replace(word, "")
-								if(fileContent.attributes[0][key])
-									fileContent.attributes.forEach(x => {
-										x[key].replace(word, "")
-									})
+				fileContent.name = names[0] + "#" + index
+				fileContent.image = images[0] + "//" + images[2] + "/" + index + ".png"
+				fileContent.edition = index
+				fileContent.name = names[0] + "#" + index
+
+				Object.keys(fileContent).forEach(key => {
+					BLACKLIST.forEach(words => {
+						if(typeof fileContent[key] !== "object" && ~(fileContent[key]  + "").search(words[0])) {
+							fileContent[key] = fileContent[key].replace(words[0], words[1])
+							final.push("В " + file + " заменён " + key + " " + words[0] + " на " + words[1])
+						}
+					})
+				})
+				fileContent.attributes.forEach(j => {
+					Object.keys(j).forEach(x => {
+						BLACKLIST.forEach(words => {
+							if(~(j[x]  + "").search(words[0])) {
+								j[x] = j[x].replace(words[0], words[1])
+								final.push("В " + file + " заменён attributes." + key + " " + words[0] + " на " + words[1])
+							}
 						})
 					})
-
-					fileContent.name = names[0] + "#" + index
-
-					fq.writeFile("./json_final/" + index + ".json", JSON.stringify(fileContent, null, 2), err => {
-						if (err) throw err
-						// console.log("final", index)
-					})
-					// console.log("start", index)
-				}
-				catch (e) {
-					console.error("error", content, file, e)
-				} 
-			})
-		})
-	})
+				})
+				fs.writeFileSync("./json_final/" + index + ".json", JSON.stringify(fileContent, null, 2))
+			}
+			catch (e) {
+				console.error("error", file, e)
+			} 
+		}
+	console.log(final)
+	res.end(JSON.stringify(final))
 })
 
 router.get('/parse_json_special_all', async (req, res) => {
@@ -80,7 +80,6 @@ router.get('/find', async (req, res) => {
 	let final = [],
 			predicate = req.query.predicate
 	let files = await fs.readdirSync("./json_final")
-	console.log(files)
 	for(let index = 1; index < files.length; index++) {
 		let fileContent = JSON.parse(fs.readFileSync("./json_final/" + index + ".json", 'utf8'))
 		Object.keys(fileContent).forEach(x => {
@@ -92,7 +91,7 @@ router.get('/find', async (req, res) => {
 		fileContent.attributes.forEach(j => {
 			Object.keys(j).forEach(x => {
 				if(typeof j[x] !== "object")
-					if(~(j[x]  + "").search(predicate)){
+					if(~(j[x]  + "").search(predicate)) {
 						final.push(index + ".json")
 					}
 			})
