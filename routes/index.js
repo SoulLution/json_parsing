@@ -75,4 +75,30 @@ router.get('/parse_json_special_all', async (req, res) => {
 		})
 	})
 })
+router.get('/find', async (req, res) => {
+	const fs = require("fs")
+	let final = [],
+			predicate = req.query.predicate
+	let files = await fs.readdirSync("./json_final")
+	console.log(files)
+	for(let index = 1; index < files.length; index++) {
+		let fileContent = JSON.parse(fs.readFileSync("./json_final/" + index + ".json", 'utf8'))
+		Object.keys(fileContent).forEach(x => {
+			if(typeof fileContent[x] !== "object")
+				if(~(fileContent[x]  + "").search(predicate)){
+					final.push(index + ".json")
+				}
+		})
+		fileContent.attributes.forEach(j => {
+			Object.keys(j).forEach(x => {
+				if(typeof j[x] !== "object")
+					if(~(j[x]  + "").search(predicate)){
+						final.push(index + ".json")
+					}
+			})
+		})
+	}
+	console.log(final)
+	res.end(JSON.stringify(final))
+})
 module.exports = router;
